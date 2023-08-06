@@ -1,2 +1,2 @@
-
-print("Hello to you, Bob");
+import getpass
+print(f"Hello to you, {getpass.getuser()}");
